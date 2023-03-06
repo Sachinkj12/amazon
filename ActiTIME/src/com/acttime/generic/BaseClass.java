@@ -14,7 +14,8 @@ import org.testng.annotations.BeforeMethod;
 import com.actitime.pom.HomePage;
 import com.actitime.pom.LoginPage;
 
-public class BaseClass {static {
+public class BaseClass {
+	static {
 	System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 }
  public static WebDriver driver;
@@ -46,7 +47,6 @@ public void login() throws IOException {
 public void logOut() throws InterruptedException {
 	Reporter.log("logOut",true);
 	HomePage h=new HomePage(driver);
-	Thread.sleep(8000);
 	h.setLogout();
 }
 }

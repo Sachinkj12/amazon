@@ -33,59 +33,28 @@ public class TaskListPage {
 	public TaskListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-
-	/**
-	 * @return the addNewBtn
-	 */
 	public WebElement getAddNewBtn() {
 		return addNewBtn;
 	}
-
-	/**
-	 * @return the newCustomer
-	 */
 	public WebElement getNewCustomer() {
 		return newCustomer;
 	}
-
-	/**
-	 * @return the enterCustomerNameTbx
-	 */
 	public WebElement getEnterCustomerNameTbx() {
 		return enterCustomerNameTbx;
 	}
-
-	/**
-	 * @return the enterCustomerDescription
-	 */
 	public WebElement getEnterCustomerDescription() {
 		return enterCustomerDescription;
 	}
 
-	/**
-	 * @return the selectCustomerDD
-	 */
 	public WebElement getSelectCustomerDD() {
 		return selectCustomerDD;
 	}
-
-	/**
-	 * @return the ourCompanyTx
-	 */
 	public WebElement getOurCompanyTx() {
 		return ourCompanyTx;
 	}
-
-	/**
-	 * @return the createCustomerBtn
-	 */
 	public WebElement getCreateCustomerBtn() {
 		return createCustomerBtn;
 	}
-
-	/**
-	 * @return the actualCustomerCreated
-	 */
 	public WebElement getActualCustomerCreated() {
 		return actualCustomerCreated;
 	}
